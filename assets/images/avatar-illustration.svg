@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 500" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized avatar illustration</title>
+  <desc id="desc">A friendly, abstract avatar with dark hair and a lavender top. This is an illustration, not a personal portrait.</desc>
+  <ellipse cx="210" cy="465" rx="128" ry="18" fill="#c9b9f4" opacity=".45"/>
+  <path d="M89 457c10-82 48-121 121-121s111 39 121 121v12H89z" fill="#7956d8" stroke="#6542c4" stroke-width="5"/>
+  <path d="M172 326h76v73c-12 15-24 22-38 22s-26-7-38-22z" fill="#e7a98f"/>
+  <path d="M111 194c-6-87 37-138 101-138 67 0 103 54 98 140l-9 90c-5 52-41 93-89 93s-84-41-89-93z" fill="#342638"/>
+  <path d="M127 200c0-72 29-110 84-110s84 38 84 110v64c0 53-36 96-84 96s-84-43-84-96z" fill="#f0b99d"/>
+  <path d="M123 215c-12-72 0-130 38-154-2 36 13 52 44 57 47 8 70-15 82-42 28 30 38 77 25 141l-23-21c-13-25-18-48-18-68-30 30-70 43-119 37-6 21-15 38-29 50z" fill="#342638"/>
+  <path d="M127 203c-19-11-29 5-22 26 5 17 13 24 23 24zm166 0c19-11 29 5 22 26-5 17-13 24-23 24z" fill="#efb297"/>
+  <path d="M161 226c10-8 21-8 31-1m37 0c10-7 21-7 31 1" fill="none" stroke="#342638" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="177" cy="249" rx="6" ry="9" fill="#342638"/><ellipse cx="243" cy="249" rx="6" ry="9" fill="#342638"/>
+  <path d="M207 250c-2 16-7 25-13 30 6 5 14 6 21 1" fill="none" stroke="#d68d76" stroke-width="4" stroke-linecap="round"/>
+  <path d="M181 302c17 17 42 17 59 0" fill="none" stroke="#a84e64" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="153" cy="278" rx="15" ry="8" fill="#ed8ca0" opacity=".35"/><ellipse cx="267" cy="278" rx="15" ry="8" fill="#ed8ca0" opacity=".35"/>
+  <path d="M121 374c20 10 42 15 66 15l23 36 23-36c23 0 46-5 66-15l17 83H104z" fill="#f4efff" opacity=".98"/>
+  <path d="M183 388l27 37 27-37" fill="none" stroke="#d5c8fa" stroke-width="5"/>
+  <circle cx="323" cy="105" r="20" fill="#f1a7d9"/><path d="M323 72v66m-33-33h66m-56-23 46 46m0-46-46 46" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M76 148l6 17 17 6-17 6-6 17-6-17-17-6 17-6z" fill="#8ccdeb"/>
+</svg>
