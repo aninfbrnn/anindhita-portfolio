@@ -477,3 +477,8 @@ body.dark .revised-background .thesis-facts>span{background:#302b3a}
 .revised-background .education-card>.education-icon{position:absolute;z-index:1}
 .footer-nav .social-icon-link{flex-shrink:0}
 
+
+.contact-actions .instagram-button{width:54px;height:54px;padding:0;gap:0;flex:0 0 54px}
+.contact-actions .instagram-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.contact-actions .instagram-button .instagram-flash{fill:currentColor;stroke:none}
+
