@@ -482,3 +482,7 @@ body.dark .revised-background .thesis-facts>span{background:#302b3a}
 .contact-actions .instagram-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .contact-actions .instagram-button .instagram-flash{fill:currentColor;stroke:none}
 
+
+.contact-actions .instagram-button{width:auto;height:54px;padding:13px 19px;gap:12px;flex:0 0 auto}
+.contact-actions .instagram-button svg{flex:0 0 20px}
+
