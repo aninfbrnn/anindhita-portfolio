@@ -465,3 +465,10 @@ body.dark .revised-background .thesis-facts>span{background:#302b3a}
  .revised-background .education-foot{margin-top:21px;align-items:flex-start;flex-direction:column;gap:6px}
  .revised-background .thesis-summary .thesis-facts>span{font-size:8px}
 }
+
+.revised-background .education-card:after{z-index:0}
+.revised-background .education-foot{position:relative;z-index:1}
+.footer-nav .social-icon-link{display:inline-grid;place-items:center;width:30px;height:30px;color:var(--purple);border:1px solid var(--line);border-radius:9px;transition:color .2s,border-color .2s,transform .2s}
+.footer-nav .social-icon-link:hover{color:var(--purple-dark);border-color:var(--purple);transform:translateY(-2px)}
+.footer-nav .social-icon-link svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.footer-nav .social-icon-link .instagram-flash{fill:currentColor;stroke:none}
