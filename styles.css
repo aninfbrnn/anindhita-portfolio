@@ -56,6 +56,30 @@ body.dark .detail-flow{background:#302842}body.dark .detail-flow div{background:
 .hero-tags{flex-wrap:wrap}
 @media(max-width:900px){.featured-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compact-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.project-level-heading{font-size:19px;margin-top:32px}.featured-project-grid,.compact-project-grid{grid-template-columns:1fr}.academic-project-detail .detail-flow{gap:8px}.academic-project-detail .detail-flow .flow-node{flex:1 1 28%}}
+
+/* Keep the six competency cards in balanced rows at every desktop width. */
+.revised-competencies{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:1160px}
+.revised-competencies .competency,.revised-competencies .competency:nth-child(4),.revised-competencies .competency:last-child{grid-column:auto;width:100%;min-height:218px;padding:22px;border-radius:16px;justify-self:stretch}
+@media(max-width:900px){.revised-competencies{grid-template-columns:repeat(2,minmax(0,1fr))}.revised-competencies .competency,.revised-competencies .competency:nth-child(4),.revised-competencies .competency:last-child{grid-column:auto;width:100%;min-height:215px;justify-self:stretch}}
+@media(max-width:680px){.revised-competencies{grid-template-columns:1fr}.revised-competencies .competency,.revised-competencies .competency:nth-child(4),.revised-competencies .competency:last-child{grid-column:auto;width:100%;min-height:0;padding:22px}}
+
+/* Compact project cards use small, project-specific illustrations like the featured cards. */
+.compact-project-grid .project-visual{height:150px}
+.visual-crm{background:linear-gradient(135deg,#fff2fa,#f6f0ff)}
+.crm-hub{position:absolute;z-index:1;display:grid;place-items:center;width:124px;height:56px;border:1.5px solid #bba8ee;border-radius:14px;background:#fff;color:var(--purple-dark);font:500 9px/1.4 var(--mono);text-align:center;box-shadow:0 8px 18px rgba(91,68,151,.08)}
+.crm-channel{position:absolute;z-index:2;padding:5px 9px;border:1px solid #d8ccff;border-radius:999px;background:rgba(255,255,255,.94);color:var(--purple-dark);font:500 8px var(--mono)}
+.crm-channel-one{top:23px;left:12%}.crm-channel-two{top:23px;right:12%}.crm-channel-three{bottom:30px;left:12%}.crm-channel-four{right:8%;bottom:30px}
+.visual-creditblock{background:linear-gradient(135deg,#f3efff,#fff4fa);flex-direction:column;gap:14px}
+.creditblock-chain,.creditblock-flow{display:flex;align-items:center;justify-content:center;gap:8px}
+.creditblock-chain span{padding:5px 9px;border:1px solid #c9b9f4;border-radius:7px;background:#fff;color:var(--purple-dark);font:500 8px var(--mono)}
+.creditblock-chain i{color:var(--purple);font-style:normal;font-size:12px}
+.creditblock-flow b{padding:7px 8px;border:1px solid #dfd2f9;border-radius:7px;background:rgba(255,255,255,.86);color:#6146a7;font:500 7px var(--mono);white-space:nowrap}
+.creditblock-flow span{color:var(--purple);font-size:13px}
+.visual-adoption{background:linear-gradient(135deg,#effaff,#f5f2ff);gap:16px}
+.adoption-data{display:flex;flex-direction:column;gap:7px;padding:12px 14px;border:1px solid #cfe7f4;border-radius:12px;background:rgba(255,255,255,.9);box-shadow:0 8px 18px rgba(70,126,154,.08)}
+.adoption-data>span{color:#688396;font:500 8px var(--mono);letter-spacing:.04em}.adoption-data>b{color:var(--ink);font:700 22px var(--font-head)}.adoption-data b small{font:600 9px var(--font-body);color:var(--muted)}.adoption-data>i{color:var(--purple);font:500 8px var(--mono);font-style:normal}
+.adoption-chart{height:78px;display:flex;align-items:end;gap:6px;padding:0 12px 0 2px;border-bottom:1px solid #b9dce9}
+.adoption-chart i{width:12px;height:38%;border-radius:4px 4px 0 0;background:#a8dceb}.adoption-chart i:nth-child(2){height:65%;background:#c2aff0}.adoption-chart i:nth-child(3){height:50%}.adoption-chart i:nth-child(4){height:82%;background:#9cd6e9}.adoption-chart i:nth-child(5){height:57%;background:#c2aff0}.adoption-chart i:nth-child(6){height:73%}.adoption-chart i:nth-child(7){height:45%;background:#c2aff0}
 /* All project cards share identical grid sizing; the final item uses normal grid placement. */
 .revised-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:19px}
 .revised-projects>.project-card{display:flex;width:100%;min-width:0;max-width:none;grid-column:auto;justify-self:stretch}
