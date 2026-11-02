@@ -24,6 +24,38 @@ body.dark .detail-flow{background:#302842}body.dark .detail-flow div{background:
 @media(max-width:680px){.avatar-illustration{width:185px;height:225px;bottom:34px}}
 /* Keep the third project card aligned with the first column on desktop. */
 @media(min-width:901px){.revised-projects .project-card:last-child{grid-column:1;max-width:none;justify-self:stretch}}
+
+/* Academic project hierarchy and direct profile resources. */
+.project-level-heading{display:flex;align-items:center;gap:13px;margin:40px 0 19px;font-size:21px}
+.project-level-heading span{display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--purple);font:500 11px var(--mono)}
+.featured-project-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1080px}
+.featured-project-grid .project-card{min-height:100%}
+.featured-project-grid .project-card-facts{display:grid;gap:7px;border-top:1px solid color-mix(in srgb,var(--line) 65%,transparent);padding-top:11px;margin-top:13px}
+.project-card-facts p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}
+.project-card-facts b{display:block;margin-bottom:2px;color:var(--purple-dark);font:500 9px var(--mono);letter-spacing:.06em}
+.project-visual.visual-erp{background:#f5f0ff}
+.project-visual.visual-planning{background:#fff5fb}
+.project-visual.visual-integration{background:#eefaff}
+.project-visual.visual-invoice{background:#fff8ed}
+.compact-project-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1080px}
+.compact-project-grid .project-card-compact .project-content{padding:22px;flex:1}
+.compact-project-grid .project-card-compact h3{font-size:18px;line-height:1.35}
+.compact-project-grid .project-card-compact> .project-content>p{font-size:13px;line-height:1.55}
+.compact-project-grid .project-card-compact .project-bottom{align-items:flex-start;flex-direction:column;gap:10px;margin-top:auto}
+.existing-project-grid .project-card-compact .project-visual{height:150px}
+.about-resource-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.about-resource-links a{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:var(--purple-dark);background:var(--panel);font-size:12px;font-weight:900}
+.about-resource-links a span{font-size:15px}
+.project-detail-list{padding-left:20px;color:var(--muted);font-size:15px}
+.project-detail-list li{padding:3px 0 3px 2px}
+.project-detail-list li::marker{color:var(--purple)}
+.project-detail-pills{margin-top:8px}
+.academic-project-detail .detail-flow{min-height:116px;flex-wrap:wrap}
+.academic-project-detail .project-flow .visual-caption{font-size:8px}
+.academic-project-detail .detail-main section{margin-bottom:35px}
+.hero-tags{flex-wrap:wrap}
+@media(max-width:900px){.featured-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compact-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.project-level-heading{font-size:19px;margin-top:32px}.featured-project-grid,.compact-project-grid{grid-template-columns:1fr}.academic-project-detail .detail-flow{gap:8px}.academic-project-detail .detail-flow .flow-node{flex:1 1 28%}}
 /* All project cards share identical grid sizing; the final item uses normal grid placement. */
 .revised-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:19px}
 .revised-projects>.project-card{display:flex;width:100%;min-width:0;max-width:none;grid-column:auto;justify-self:stretch}
